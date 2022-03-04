@@ -1,0 +1,90 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
+        <title>Recette pate à crêpe</title>
+    </head>
+
+    <body>
+        <div class="waveWrapper waveAnimation">
+            <div class="waveWrapperInner bgTop">
+                <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+            </div>
+            <div class="waveWrapperInner bgMiddle">
+                <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+            </div>
+            <div class="waveWrapperInner bgBottom">
+                <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+            </div>
+        </div>
+        
+        <h1 class="title">Recette pate à crêpe</h1>
+
+        <div class="div-input">
+            <input type="text" placeholder="Nombre" class="number" id="nbCrepe">
+            <button type="button" onclick="crepeParty()"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/></svg></button>
+            <div class="div-span">
+                <span>
+                    <div><img src="https://assets.afcdn.com/recipe/20170607/67682_w320h320c1cx350cy350.webp" class="pic"></div>
+                    <div class="element" id="farine"></div>
+                </span>
+                <span>
+                    <div><img src="https://assets.afcdn.com/recipe/20170607/67691_w320h320c1cx350cy350.webp" class="pic"></div>
+                    <div class="element" id="sucre"></div>
+                </span>
+                <span>
+                    <div><img src="https://assets.afcdn.com/recipe/20220117/127496_w320h320c1cx411cy411cxb822cyb822.webp" class="pic"></div>
+                    <div class="element" id="huile"></div>
+                </span>
+                <span>
+                    <div><img src="https://assets.afcdn.com/recipe/20201201/115998_w320h320c1cx912cy821cxb1824cyb1643.webp" class="pic"></div>
+                    <div class="element" id="beurre"></div>
+                </span>
+                <span>
+                    <div><img src="https://assets.afcdn.com/recipe/20170607/67388_w320h320c1cx350cy350.webp" class="pic"></div>
+                    <div class="element" id="lait"></div>
+                </span>
+                <span>
+                    <div><img src="https://assets.afcdn.com/recipe/20170607/67743_w320h320c1cx350cy350.webp" class="pic"></div>
+                    <div class="element" id="rhum"></div>
+                </span>
+                <span>
+                    <div><img src="https://assets.afcdn.com/recipe/20220126/128066_w320h320c1cx1140cy1140cxb2280cyb2280.webp" class="pic"></div>
+                    <div class="element" id="oeuf"></div>
+                </span>
+            </div>
+            <button type="button" onclick=""></button>
+            <div id="recipe">
+                <div>
+                    <span>
+                        <h1>Etape 1</h1>
+                        <br>
+                        <p>Mettre la farine dans une terrine et former un puits.</p>
+                        <br>
+                        <h1>Etape 2</h1>
+                        <br>
+                        <p>Y déposer les oeufs entiers, le sucre, l'huile et le beurre.</p>
+                        <br>
+                        <h1>Etape 3</h1>
+                        <br>
+                        <p>Mélanger délicatement avec un fouet en ajoutant au fur et à mesure le lait. La pâte ainsi obtenue doit avoir une consistance d'un liquide légèrement épais.</p>
+                        <br>
+                        <h1>Etape 4</h1>
+                        <br>
+                        <p>Parfumer de rhum.</p>
+                        <br>
+                        <h1>Etape 5</h1>
+                        <br>
+                        <p>Faire chauffer une poêle antiadhésive et la huiler très légèrement à l'aide d'un papier Essuie-tout. Y verser une louche de pâte, la répartir dans la poêle puis attendre qu'elle soit cuite d'un côté avant de la retourner. Cuire ainsi toutes les crêpes à feu doux.</p>
+                    </span>
+                    <button type="button" onclick="up()" id="button-close">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
